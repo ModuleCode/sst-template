@@ -43,7 +43,7 @@
         <property name="dataSource" ref="dataSource"></property>
     </bean>
 
-    <!--    注解驱动-->
+    <!-- 注解驱动 加入后自动加入2个json解析器-->
     <mvc:annotation-driven/>
 
 </beans>
